@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>form</title>
+   
+</head>
+<body>
+    <header class="form">payment form</header>
+    <hr>
+    <p class="form"><u>USER INFORMATION</u></p>
+        
+    <p class="form">Name: <input type="text" name="name" id="name" placeholder="First name">
+        <input type="text" name="name" id="name" placeholder="Last name">
+    </p>
+
+    <p class="form">Address: <textarea name="address" id="address" cols="30" rows="10"></textarea></p>
+    <p class="form">Gender:
+        Male <input type="radio" name="gender" id="gender">
+        Female <input type="radio" name="gender" id="gender">
+    </p>
+    <p class="form">Pincode: <input type="number" name="pincode" id="pincode"></p>
+    <p  class="form">Email: <input type="email" name="email" id="email" placeholder="xyz@gmail.com"></p>
+    <p class="form"><u>PAYMENT INFORMATION</u></p>
+    <p class="form">Card type:  
+        <select name="apply" id="apply">
+            <option value="" >--select option--</option>
+            <option value="debit card">debit card</option>
+            <option value="credit card">credit card</option>
+        </select>
+    </p>
+    <p class="form">Card no: <input type="number" name="card no" id="card no"></p>
+    <p class="form">Expiration date: <input type="date" name="date" id="date"></p>
+    <p class="form">CVV: <input type="password" name="cvv" id="cvv"></p>
+    <p class="form">Upload Documents: <br> <input type="file" name="choose file"></p>
+    <p class="form"><input type="checkbox" name="checkbox" >All information provided above is correct</p>
+    <input type="submit" value="pay now">
+</body>
+</html>
